@@ -36,7 +36,8 @@
 				zoom: 5,
 				center: minsk,
 				disableDefaultUI: true,
-				gestureHandling: 'greedy'
+				gestureHandling: 'greedy',
+				disableDoubleClickZoom: true
 			};
 
 			var geocoder= new google.maps.Geocoder;
